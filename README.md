@@ -4,11 +4,11 @@ A custom-designed, fully programmable mechanical macropad built to streamline de
 
 ## System Features
 
-*   **Layout:** A compact 3x3 grid (9 keys) designed for macros, shortcuts, or a dedicated numpad.
+*   **PCB Layout:** A compact 3x3 grid (9 keys) designed for macros, shortcuts, or a dedicated numpad.
 *   **Rotary Encoder:** A clickable dial mapped for master volume control and audio muting.
 *   **Microcontroller:** Arduino Pro Micro (ATmega32U4).
 *   **Firmware:** QMK Firmware integration, allowing complete customization of every key switch and encoder action.
-*   **Components:** Custom 3D-printed keycaps and rotary encoder knob.
+*   **Other Components:** Custom 3D-printed keycaps and rotary encoder knob.
 
 ## Hardware Design (KiCad)
 
