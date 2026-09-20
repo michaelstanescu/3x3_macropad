@@ -1,22 +1,28 @@
 # 3x3 Macropad (with Rotary Encoder)
-This is a custom-designed, fully programmable mechanical macropad I built from scratch. I designed it to streamline my daily workflow, but it also served as a great hands-on project to learn full-cycle hardware development and embedded firmware. 
 
-## Features
-* **Layout:** A compact 3x3 grid (9 keys) perfect for macros, shortcuts, or a numpad.
-* **Rotary Encoder:** A clickable dial mapped for volume control and muting/unmuting desktop audio.
-* **Microcontroller:** Arduino Pro Micro (ATmega32U4).
-* **Firmware:** Running QMK Firmware, meaning every key and encoder turn is completely customizable.
-* **Other:** Keycaps and rotary encoder knob have been 3D printed myself.
+A custom-designed, fully programmable mechanical macropad built to streamline desktop workflows and demonstrate full-cycle hardware development and embedded firmware integration. 
 
-## KiCad
-I handled the entire hardware design using KiCad 10.0:
-* **Schematics:** Wired up the 3x3 switch matrix with diodes to prevent key ghosting, and mapped out the pins for the rotary encoder and Pro Micro.
-* **PCB Layout:** Designed a compact board and routed all the traces cleanly.
+## System Features
+
+*   **Layout:** A compact 3x3 grid (9 keys) designed for macros, shortcuts, or a dedicated numpad.
+*   **Rotary Encoder:** A clickable dial mapped for master volume control and audio muting.
+*   **Microcontroller:** Arduino Pro Micro (ATmega32U4).
+*   **Firmware:** QMK Firmware integration, allowing complete customization of every key switch and encoder action.
+*   **Components:** Custom 3D-printed keycaps and rotary encoder knob.
+
+## Hardware Design (KiCad)
+
+The hardware architecture and PCB layout were developed using KiCad 10.0:
+
+*   **Schematics:** A 3x3 switch matrix configured with diodes to prevent key ghosting, alongside integrated pin mappings for the rotary encoder and microcontroller.
+*   **PCB Layout:** A compact board footprint with optimized trace routing.
 
 ## QMK Firmware
-Inside the `/firmware` folder, you'll find the configuration files (`keymap.c`, `keyboard.json`, and `rules.mk`) I used to get it up and running.
 
-## Folders
-* `/` (Root): The main KiCad design files (`macropadpcb.kicad_pro`, `macropadpcb.kicad_sch`, `macropadpcb.kicad_pcb`).
-* `/firmware`: The QMK config files.
-* `/docs`: A PDF of the PCB layout, schematic, 3D renders, and physical images of the final product.
+The `/firmware` directory contains the configuration files (`keymap.c`, `keyboard.json`, and `rules.mk`) required to compile and flash the system for custom keybindings.
+
+## Repository Structure
+
+*   `/` (Root): The primary KiCad design files (`macropadpcb.kicad_pro`, `macropadpcb.kicad_sch`, `macropadpcb.kicad_pcb`).
+*   `/firmware`: The QMK configuration source files.
+*   `/docs`: System architecture documentation, including a PDF of the PCB layout, schematics, 3D renders, and physical images of the final build.
