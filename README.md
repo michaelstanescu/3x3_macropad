@@ -6,6 +6,7 @@ This is a custom-designed, fully programmable mechanical macropad I built from s
 * **Rotary Encoder:** A clickable dial mapped for volume control and muting/unmuting desktop audio.
 * **Microcontroller:** Arduino Pro Micro (ATmega32U4).
 * **Firmware:** Running QMK Firmware, meaning every key and encoder turn is completely customizable.
+* **Other:** Keycaps and rotary dial knob have been 3D printed myself.
 
 ## KiCad
 I handled the entire hardware design using KiCad 10.0:
