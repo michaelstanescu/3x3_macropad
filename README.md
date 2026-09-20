@@ -15,7 +15,7 @@ A custom-designed, fully programmable mechanical macropad built to streamline de
 The hardware architecture and PCB layout were developed using KiCad 10.0:
 
 *   **Schematics:** A 3x3 switch matrix configured with diodes to prevent key ghosting, alongside integrated pin mappings for the rotary encoder and microcontroller.
-*   **PCB Layout:** A compact board footprint with optimized trace routing.
+*   **PCB Layout:** A compact board layout with optimized trace routing.
 
 ## QMK Firmware
 
